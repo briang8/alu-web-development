@@ -1,0 +1,405 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.banner {
+    background-image: url(./Images/background.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    height: 1093px;
+    margin-top: -109px;
+    padding-top: 109px;
+}
+
+.header {
+    background-size: contain;
+    position: relative;
+}
+
+.header img {
+    margin: 1rem 0rem 0 5rem;
+}
+
+.header {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 52px
+}
+
+.nav-links a {
+    font-weight: 700;
+    padding: 8px none;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+.header-text {
+    text-align: center;
+    color: white;
+    font-size: 120px;
+    font-weight: 700;
+    margin-top: 120px
+}
+
+.header-p {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    word-spacing: 59px;
+}
+
+.first-btn {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #c271ff;
+    border-radius: 22px;
+    background: #C271FF;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    width: 162px;
+    height: 44px;
+    cursor: pointer;
+    margin-top: 38px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.first-btn a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header2-text {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 200;
+    color: #fff;
+    margin-top: 168px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+span {
+    color: #c271ff;
+    font-weight: 600;
+}
+
+
+.pros-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.2rem;
+    width: 1009px;
+    margin-bottom: 46px;
+}
+
+.pro-name {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
+}
+
+.pro-text {
+    width: 150px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 24px;
+}
+
+/* Second section */
+
+.testimonial {
+    display: flex;
+    background-color:#C271FF;
+    height: 400px;
+    padding: none 260px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.testimonial div{
+    height: 160px;
+}
+
+.quote {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    width: 730px;
+    line-height: 33.6px;
+}
+
+.quote blockquote {
+    font-size: 22px;
+}
+
+.name {
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.title {
+    font-style: italic;
+    font-size: 22px;
+}
+
+/* Third section */
+
+.videos {
+    background-color: #FFFFFF;
+    margin-top: 87px;
+    margin-right: 107px;
+    margin-left: 107px;
+}
+
+.videos h1 {
+    color: #071629;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.videos-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 31px;
+    margin-top: 75px;
+    cursor: pointer;
+}
+
+
+.videos-div h2 {
+    color: #071629;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 1rem;
+    word-wrap: break-word;
+}
+
+.videos-div p {
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 1rem;
+}
+
+.vp {
+    display: flex;
+    flex-direction: row;
+}
+.vp img {
+    margin: 15px 11px 15px 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.vp h3 {
+    margin-top: 15px;
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+.rating {
+    display: flex;
+    flex-direction: row;
+}
+
+.rating > div {
+    display: flex;
+    gap: 8px;
+}
+.rating > div > img {
+    height: 15px;
+}
+
+.rating p {
+    margin: -4px 0 0 90px;
+    color: #C271FF;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+    word-wrap: break-word;
+}
+
+/* Fourth section */
+
+.membership {
+    margin-top: 87px;
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    color: #ffffff;
+}
+
+.membership h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 200;
+    margin: 1rem 0;
+}
+
+.membership-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    margin: 5% 0;
+}
+
+.membership-div img {
+    margin-bottom: 1rem;
+    width: 43.666px;
+    height: 35.353px;
+    flex-shrink: 0;
+}
+
+.membership-div h2 {
+    margin-bottom: 1rem;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.membership-div p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.second-btn {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #c271ff;
+    border-radius: 22px;
+    background: #C271FF;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    width: 162px;
+    height: 44px;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+.second-btn a{
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Fifth section */
+
+.faq {
+    padding: 50px 100px;
+}
+
+.faq h1 {
+    color: #071629;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.faq-div {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 50px;
+}
+
+.faq-item {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 3%;
+}
+
+.faq-item h2 {
+    color: #071629;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.faq-item p {
+    color: rgba(7, 22, 41, 0.50);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+} 
+
+#left {
+    display: flex;
+    float: left;
+} 
+
+#right {
+    display: flex;
+    float: right;
+    padding-left: 5rem;
+}
+
+/* Sixth section */
+
+footer {
+    background-color: #071629;
+    padding: 5rem 185px 2.4rem 185px;
+    margin-top: 38rem;
+}
+
+.footer-logo {
+    width: 8rem;
+}
+
+.footer-sm {
+    float: right;
+    word-spacing: 1rem;
+}
+
+footer p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.3517;
+    margin-top: 3rem;
+}
